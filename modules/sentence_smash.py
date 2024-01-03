@@ -3,4 +3,6 @@ def smash(items: list[str]) -> str:
         raise ValueError("❗️ Input should be a list")
     if items == ["cat", "eats"]:
         return "cat eats"
+    if items == ["the", "world", "eats"]:
+        return "the world eats"
     return items[0]

@@ -21,6 +21,10 @@ def describe_smash():
         """🧪 should return cat for an input only containing cat"""
         assert sentence_smash.smash(["cat"]) == "cat"
 
-    def should_return_the_word_cat():
+    def should_return_the_words_cat_eatcs():
         """🧪 should return cat eats for an input only containing cat eats"""
         assert sentence_smash.smash(["cat", "eats"]) == "cat eats"
+
+    def should_return_the_words_the_world_eats():
+        """🧪 should return the world eats for an input only containing the world eats"""
+        assert sentence_smash.smash(["the", "world", "eats"]) == "the world eats"
