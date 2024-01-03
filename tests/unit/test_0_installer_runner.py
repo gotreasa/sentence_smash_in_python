@@ -1,9 +1,9 @@
+import pytest
 from modules import sentence_smash
 
 
-def describe_dummy_kata():
-    def should_print_title(capsys):
-        """🧪 expect the dummy kata prints the title"""
-        sentence_smash.print_the_title()
-        out, _err = capsys.readouterr()
-        assert "😊 Welcome to Dummy Kata" in out
+def describe_smash():
+    def should_error_when_not_list(capsys):
+        """🧪 should give an error when the input is not a list"""
+        with pytest.raises(ValueError, match="❗️ Input should be a list"):
+            sentence_smash.smash("blah")

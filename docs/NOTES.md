@@ -10,7 +10,7 @@
 
 ## 🍅 Pomodoro 1
 
-- ⚠ should give an error when the input is not a list
+- 🚧 should give an error when the input is not a list
 - ⚠ should return t for an input only containing t
 - ⚠ should return bob for an input only containing bob
 - ⚠ should return cat for an input only containing cat
