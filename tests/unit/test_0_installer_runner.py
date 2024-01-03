@@ -35,3 +35,8 @@ def describe_smash():
     def should_return_the_words_the_world_eats_with_extra_space():
         """🧪 should return the world eats for input the world eats which has extra space"""
         assert sentence_smash.smash(["the", "world  ", " eats"]) == "the world eats"
+
+    def should_error_when_not_list_of_strings():
+        """🧪 should give an error when the input is not a list of strings"""
+        with pytest.raises(ValueError, match="❗️ Input should be a list of strings"):
+            sentence_smash.smash(["blah", 9])
