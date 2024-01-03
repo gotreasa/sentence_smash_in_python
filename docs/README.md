@@ -7,3 +7,15 @@
 [![Can I Deploy main to test](https://gotreasa.pactflow.io/pacticipants/sentence_smash_in_python_app/branches/main/latest-version/can-i-deploy/to-environment/test/badge)](https://gotreasa.pactflow.io/hal-browser/browser.html#https://gotreasa.pactflow.io/pacticipants/sentence_smash_in_python_app/branches/main/latest-version/can-i-deploy/to-environment/test/badge)
 
 Welcome to the Python Template created via a cookiecutter recipe. The project template is designed for a development via a `Double Loop approach` (BDD-TDD) using pytest and several other pytest libs.
+
+## Description
+
+#### Sentence Smash
+
+Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, there shouldn't be a space at the beginning or the end of the sentence!
+
+#### Example
+
+```js
+['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
+```
